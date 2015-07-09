@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="sniffer" device="LCMXO2-7000HE-5TG144C" default_implementation="impl1">
+    <Options/>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="top" top="top"/>
+        <Source name="top.v" type="Verilog" type_short="Verilog">
+            <Options top_module="top"/>
+        </Source>
+        <Source name="lib/uart.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="lib/ram.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="lib/pll.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="lib/pll.lpc" type="LPC_Module" type_short="LPC">
+            <Options/>
+        </Source>
+        <Source name="lib/ram.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="clkdiv.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="sniffer.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="sniffer1.sty"/>
+</BaliProject>

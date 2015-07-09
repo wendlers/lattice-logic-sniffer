@@ -1,0 +1,10 @@
+.sconsign.dblite
+*.vcd
+*.vvp
+impl1
+sniffer1.sty
+sniffer.ccl
+sniffer_tcl.html
+sniffer_tcr.dir
+reportview.xml
+.*.ini
